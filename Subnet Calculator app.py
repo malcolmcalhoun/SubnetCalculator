@@ -108,7 +108,7 @@ def subnet_calculator():
             continue
         else:
             print("OK, bye!\n")
-            brea
+            break
     except KeyboardInterrupt:
         print("\n\nProgram aborted by user. Goodbye...")
         sys.exit()
